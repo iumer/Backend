@@ -12,7 +12,7 @@ const app = express();
 
 
 require("./startup/routers")(app);
-// require("./startup/prod")(app);
+require("./startup/prod")(app);
 // require("./startup/config")(app);
 
 const port = process.env.PORT || 3000
