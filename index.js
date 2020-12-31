@@ -6,7 +6,7 @@ const app = express();
 
 
 
- mongoose.connect("mongodb://localhost/Project", {useCreateIndex:true, useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: true  })
+ mongoose.connect("mongodb+srv://projec:umer123@cluster0.qxbrg.mongodb.net/project", {useCreateIndex:true, useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: true  })
  .then(() => console.log("connected to the database."))
  .catch(err => console.log(`Error:   ${err}`));
 
